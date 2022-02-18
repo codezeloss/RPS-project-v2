@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>RPS Challenge</title>
+
+    <link rel="shortcut icon" type="image/png" href="img/shortcut-icon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <!-- Game Tile -->
+      <header class="header">
+        <h1 class="heading-primary">Rock Paper Scissor</h1>
+      </header>
+
+      <!-- Game Description -->
+      <div class="description">
+        <h2 class="heading-secondary">Hey! Choose your weapon</h2>
+        <p class="descr-prg">First to score <b>10</b> points wins the game</p>
+      </div>
+
+      <!-- GAME -->
+      <div class="main-game">
+        <div class="players-choice">
+          <div>
+            <span class="icons choice">🔘</span>
+            <p class="descr-player">👨 Player: 0</p>
+          </div>
+          <div>
+            <span class="icons choice">🔘</span>
+            <p class="descr-player">🤖 Computer: 0</p>
+          </div>
+        </div>
+
+        <div class="player-weapons">
+          <div><span class="icons weapon rock">👊</span></div>
+          <div><span class="icons weapon paper">✋</span></div>
+          <div><span class="icons weapon scissor">✌️</span></div>
+        </div>
+      </div>
+    </main>
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
