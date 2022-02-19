@@ -44,7 +44,7 @@ const computerPlay = function () {
 
 // GAME OVER
 const gameOver = function () {
-  return playerScore === 5 || computerScore === 5;
+  return playerScore === 10 || computerScore === 10;
 };
 
 /////////////////////////////////////////
