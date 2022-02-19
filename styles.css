@@ -138,6 +138,18 @@ b {
   display: none;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+a:hover,
+a:active {
+  color: #3a80c6;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 727px) {
   .heading-primary {
