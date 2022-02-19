@@ -171,6 +171,7 @@ b {
 
   .main-game {
     padding: 1.8rem;
+    gap: 1rem;
   }
 
   .description {
@@ -179,5 +180,19 @@ b {
 
   .players-choice {
     gap: 8rem;
+  }
+
+  .choice {
+    padding: 4rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .weapon {
+    font-size: 3rem;
+  }
+
+  .descr-player span {
+    font-size: 2rem;
   }
 }
