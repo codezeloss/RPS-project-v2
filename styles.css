@@ -137,3 +137,47 @@ b {
 .hidden {
   display: none;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 727px) {
+  .heading-primary {
+    font-size: 2.8rem;
+  }
+
+  .heading-secondary {
+    font-size: 2rem;
+  }
+
+  .descr-prg {
+    font-size: 1.8rem;
+  }
+
+  .descr-player {
+    font-size: 1.2rem;
+  }
+
+  .icons {
+    font-size: 6rem;
+  }
+
+  .weapon {
+    font-size: 4rem;
+  }
+
+  .player-weapons {
+    gap: 2rem;
+    padding: 1.8rem;
+  }
+
+  .main-game {
+    padding: 1.8rem;
+  }
+
+  .description {
+    padding: 1.8rem;
+  }
+
+  .players-choice {
+    gap: 8rem;
+  }
+}
