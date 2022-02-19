@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
 
-    <title>RPS Challenge</title>
+    <title>| The RPS Game</title>
 
     <link rel="shortcut icon" type="image/png" href="img/shortcut-icon.svg" />
     <link rel="stylesheet" href="styles.css" />
@@ -34,30 +34,44 @@
 
       <!-- Game Description -->
       <div class="description">
-        <h2 class="heading-secondary">Hey! Choose your weapon ⚔️</h2>
-        <p class="descr-prg">First to score <b>10</b> points wins the game</p>
+        <h2 id="score-info" class="heading-secondary">
+          Hey! Choose your weapon ⚔️
+        </h2>
+        <p id="score-detail" class="descr-prg">
+          <span>Note:</span> First to score <b>10</b> points wins the game
+        </p>
+        <button id="restartBtn" type="button" class="hidden">Play Again</button>
       </div>
 
       <!-- GAME -->
       <div class="main-game">
         <div class="players-choice">
           <div>
-            <span class="icons choice">🔘</span>
-            <p class="descr-player">👨 Player: 0</p>
+            <p id="player-score0" class="descr-player">
+              <span>👨</span> Player: 0
+            </p>
+            <div id="player-display" class="icons choice player-input">🔘</div>
           </div>
           <div>
-            <span class="icons choice">🔘</span>
-            <p class="descr-player">🤖 Computer: 0</p>
+            <p id="computer-score0" class="descr-player">
+              <span>🤖</span> Computer: 0
+            </p>
+            <div id="computer-display" class="icons choice computer-input">
+              🔘
+            </div>
           </div>
         </div>
 
         <div class="player-weapons">
-          <div><span class="icons weapon rock">👊</span></div>
-          <div><span class="icons weapon paper">✋</span></div>
-          <div><span class="icons weapon scissor">✌️</span></div>
+          <div id="rock" class="icons weapon rock">👊</div>
+          <div id="paper" class="icons weapon paper">✋</div>
+          <div id="scissor" class="icons weapon scissor">✌️</div>
         </div>
       </div>
     </main>
+
+    <footer class="footer">Copyright 2022 | @eloss.code</footer>
+
     <!-- JS -->
     <script src="script.js"></script>
   </body>
