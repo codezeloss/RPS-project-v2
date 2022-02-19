@@ -92,6 +92,7 @@ const updateChoice = function (playerSelection, computerSelection) {
   }
 };
 
+// Let's the game start  !!!
 //
 rockBtn.addEventListener('click', function () {
   handleClick('Rock');
