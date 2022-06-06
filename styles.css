@@ -208,3 +208,8 @@ a:active {
     font-size: 2rem;
   }
 }
+
+.win {
+  background-color: rgb(84, 189, 84);
+  padding: 1rem;
+}
